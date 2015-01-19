@@ -45,7 +45,7 @@ static int l_usleep(lua_State *L) {
 
 #endif
 
-static const struct luaL_reg routines [] = {
+static const struct luaL_Reg routines [] = {
   {"clock", l_clock},
   {"usleep", l_usleep},
   {NULL, NULL}
